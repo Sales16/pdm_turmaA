@@ -35,7 +35,7 @@ class ItemProdutoAdapter(private val produtos : List<Produto>) :
         holder.valorProduto.text = valorFormatado
     }
 
-    override fun getItemCount(): Int = produtos.size 
+    override fun getItemCount(): Int = produtos.size
 
     }
 }
